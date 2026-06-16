@@ -87,19 +87,7 @@ Raw vibration signal
 - XGBoost test set accuracy: **~98%**
 - RUL prediction RMSE: **~5%**
 
-### Output Plots
 
-| File | Description |
-|---|---|
-| `results/01_raw_signals.png` | Time-domain waveforms per class |
-| `results/02_fft_spectra.png` | FFT spectra — fault frequencies visible |
-| `results/03_feature_distributions.png` | Box plots — kurtosis separates faults clearly |
-| `results/04_confusion_matrix.png` | Per-class classification accuracy |
-| `results/05_classifier_comparison.png` | CV accuracy with error bars |
-| `results/06_rul_prediction.png` | Predicted vs actual RUL |
-| `results/07_feature_importance.png` | Top discriminating features |
-
----
 
 ## Project Structure
 
@@ -111,9 +99,6 @@ predictive_maintenance_ml/
 │   ├── data_loader.py               # Downloads and segments CWRU .mat files
 │   ├── feature_engineering.py       # 16 time/frequency/envelope features
 │   ├── models.py                    # RF, SVM, XGBoost classifiers + RUL regressor
-│   └── visualize.py                 # All plots
-├── data/                            # Downloaded .mat files (auto-created)
-├── results/                         # Saved plots and models (auto-created)
 └── notebooks/
     └── exploration.ipynb            # Interactive EDA
 ```
@@ -122,8 +107,8 @@ predictive_maintenance_ml/
 
 ## Setup & Run
 
-```bash
-git clone https://github.com/<your-username>/predictive_maintenance_ml
+
+clone this repo
 cd predictive_maintenance_ml
 
 python -m venv venv
@@ -131,10 +116,8 @@ source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 python main.py
-```
 
-On first run, the script downloads ~30 MB of .mat files from the CWRU server.  
-Total runtime: ~3–5 minutes on a laptop.
+On first run, the script downloads nearly 50 MB of .mat files from the CWRU server.
 
 ---
 

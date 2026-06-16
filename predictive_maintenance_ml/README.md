@@ -158,5 +158,5 @@ Total runtime: ~3–5 minutes on a laptop.
 
 ## Author
 
-**[Your Name]** — B.Tech Mechanical Engineering, IIT Madras  
-Contact: [your-email@smail.iitm.ac.in]
+**Naimisha** — B.Tech Mechanical Engineering, IIT Madras  
+Contact: [me24b035@smail.iitm.ac.in]

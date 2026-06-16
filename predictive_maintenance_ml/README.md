@@ -148,13 +148,7 @@ Total runtime: ~3–5 minutes on a laptop.
 
 ---
 
-## References
 
-1. Smith, W. A., & Randall, R. B. (2015). *Rolling element bearing diagnostics using the Case Western Reserve University data.* Mechanical Systems and Signal Processing, 64–65.
-2. Loparo, K. A. *Bearings Vibration Data Set.* Case Western Reserve University.
-3. Lei, Y. et al. (2018). *Machinery health prognostics: A systematic review.* Mechanical Systems and Signal Processing.
-
----
 
 ## Author
 
